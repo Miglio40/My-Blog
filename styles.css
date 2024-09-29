@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #1dc8e7;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {   
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    margin: 0;
+    color: #000000;
+}
+
+.banner p {
+    color: #555;
+}
+
+/* Estilo personalizado para la descripción de la primera imagen */
+.titleimg {
+    color: rgb(20, 172, 25); /* Cambia el color a verde */
+    font-weight: bold; /* Negrita para resaltar */
+    font-size: 1.4em; /* Aumenta ligeramente el tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Fuente específica */
+}
+.contextitle {
+    color: rgb(0, 0, 0); /* Cambia el color a amarillo */    
+    font-size: 0.7em; /* Aumenta ligeramente el tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Fuente específica */
+}
+.logo-img {
+    max-height: 60px; /* Ajusta la altura máxima de la imagen */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
